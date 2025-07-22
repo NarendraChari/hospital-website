@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments - City General Hospital</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">City General Hospital</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="doctors.html">Find a Doctor</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <form class="appointment-form fade-in">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="text" name="contact" placeholder="Contact Number" required>
+                <select name="doctor" required>
+                    <option value="">Select Doctor</option>
+                    <option value="Dr. Alice Smith">Dr. Alice Smith (Cardiology)</option>
+                    <option value="Dr. John Doe">Dr. John Doe (Neurology)</option>
+                    <option value="Dr. Maria Lee">Dr. Maria Lee (Pediatrics)</option>
+                    <option value="Dr. James Wilson">Dr. James Wilson (Orthopedics)</option>
+                    <option value="Dr. Patricia Chen">Dr. Patricia Chen (General Surgery)</option>
+                </select>
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <textarea name="reason" placeholder="Reason for Appointment" required></textarea>
+                <button type="submit">Book Appointment</button>
+            </form>
+            <div class="appointment-details fade-in">
+                <h3>Upcoming Appointments (Example)</h3>
+                <ul>
+                    <li>John Smith - Dr. Alice Smith - 2024-07-01 10:00 - Heart Checkup</li>
+                    <li>Jane Doe - Dr. Maria Lee - 2024-07-02 14:30 - Child Vaccination</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 City General Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html> 
